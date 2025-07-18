@@ -6,6 +6,11 @@ function Form() {
   const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
+    if (!fullName.trim() || !email.trim() || !message.trim()) {
+      alert("All fields are required!");
+      return;
+    }``
+
     console.log('Full Name:', fullName);
     console.log('Email:', email);
     console.log('Message:', message);
