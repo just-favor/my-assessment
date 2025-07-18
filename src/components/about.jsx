@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from '../assets/me.jpg'
+import Image from '../assets/selfi.JPG'
 
 function About() {
   return (
     <section className="about" id='about'>
         <div className="about-img">
-            <img src={Image} alt="" />
+            {/* <img src={Image} alt="" /> */}
         </div>
         <div className="about-container">
         <h2 className="about-title">About Me</h2>
